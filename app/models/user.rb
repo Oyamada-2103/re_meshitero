@@ -6,5 +6,7 @@ class User < ApplicationRecord
          
   # 1:多
   has_many :post_images, dependent: :destroy
+  has_many :post_comments, dependent: :destroy
+  
          
 end
