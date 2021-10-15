@@ -68,3 +68,6 @@ gem 'devise'
 # 画像機能
 gem "refile", require: "refile/rails", github: 'manfe/refile'
 gem "refile-mini_magick"
+
+# ページ機能
+gem 'kaminari','~> 1.2.1'
